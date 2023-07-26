@@ -1,0 +1,53 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: var(--font-family);
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  background-image: url('../img/login.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  /* Optional: You can set a maximum width for the card if you want */
+  max-width: 400px;
+}
+
+
+:root {
+  /* Define fixed colors as variables */
+  --primary-color: #a2ccde;
+  --secondary-color: #6c757d;
+  --background-color: #f0f0f0;
+
+  /* Define fixed font for the components */
+  --font-family: 'Arial', sans-serif;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo{
+    height: 10vh;
+    width: auto;
+    margin-bottom: 10px;
+}
+.footer {
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.btn-login{
+    min-width: 100%;
+}
